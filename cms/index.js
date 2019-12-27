@@ -1,58 +1,21 @@
 ({
 	first_slide: {
-		header: 'Cool',
-		tagline: 'Yessss',
-		call_to_action: 'Scroll down??'
+		call_to_action: 'Scroll down...'
 	},
-	instruction_points: [
-		{
-			header: 'Create a new page',
-			tagline: 'By adding a file to /pages folder',
-			link: 'https://www.endurojs.com/docs/templates'
-		},
-		{
-			header: 'Create content for your page',
-			tagline: 'By adding a file to /cms folder',
-			link: 'https://www.endurojs.com/docs/content-files'
-		},
-		{
-			header: 'Style your page',
-			tagline: 'By adding a file to /assets/css folder',
-			link: 'https://www.endurojs.com/docs/sass'
-		},
-		{
-			header: 'Admin interface',
-			tagline: 'Create amazing content with ease',
-			link: 'https://www.endurojs.com/docs/introduction-to-admin'
-		}
-	],
-	so_much_more_block: {
-		header: 'Sooooooo',
-		tagline: 'much more',
-		list_of_topics: [
+	main_content: {
+		video_link: 'https://www.youtube.com/embed/L2UqQYurBKc',
+		about_us: [
 			{
-				tagline: 'Create blog:',
-				link: 'www.endurojs.com/blog/how-to-make-a-blog-with-endurojs'
+				paragraph: 'The Dead Music Capital Band is undying proof that the party doesn’t have to end just because life does. From originals, New Orleans-brass classics, heavy metal, show tunes, movie themes, to Chopin and beyond–it’s all fed through the DMCB brass band organ grinder to produce an outrageously macabre musical party.',
+				$paragraph_type: 'textarea'
 			},
 			{
-				tagline: 'Create personal portfolio:',
-				link: 'https://www.endurojs.com/docs/themes'
+				paragraph: 'It had been said that every few years, when Autumn arrived, when days were still warm but cool winds blew at night…if you turned your face to that chill breeze, took a deep breath, and listened closely you might hear the distant sounds of a far off carnival.  The cries of long dead beasts from exotic lands, the fleeting smell of sawdust, the snap of canvas and rigging…they came on the late October wind and anyone both wise and wary knew the Circus of the 7 Dawns would soon roll into town.',
+				$paragraph_type: 'textarea'
 			},
 			{
-				tagline: 'Link content files:',
-				link: 'http://www.enduro.com/docs'
-			},
-			{
-				tagline: 'Host your page on heroku:',
-				link: 'http://www.endurojs.com/docs/heroku'
-			},
-			{
-				tagline: 'Host your page on github:',
-				link: 'https://www.endurojs.com/docs/static-pages'
-			},
-			{
-				tagline: 'Host your page on netlify:',
-				link: 'http://www.endurojs.com/docs/netlify'
+				paragraph: 'In just such a time, October 2011, the Circus of the 7 Dawns rolled thru that veil between the worlds and set stakes in Austin, TX.  As always, they brought along their famed Brass Orchestra, whose eternal mission was to remind the lucky living to enjoy life’s wonders as long as their bodies still drew breath.  True to legend, that Circus mysteriously disappeared back into the abyss in the early morning hours of All Saints Day.  However, a peculiar series of misunderstandings lead the Brass Orchestra to be left behind in the land of the living.  After aeons traveling with the circus, had they been sacked, abandoned, or worse–forgotten?  Rather than fade away like myth or mystery, the orphaned musicians adopted the name Dead Music Capital Band in honor of their new hometown and set to work building a new career amongst the mortals of Austin.  Learning modern technology (not to mention 20th century musical styles) may still be trying at times, but it has yielded fantastic results for Dead Music–two EP’s and a Full Length LP release, Intergalactic Mardi Gras Parades, and a huge array of performances in Austin, Seattle, Somerville, Providence, New Orleans and beyond.',
+				$paragraph_type: 'textarea'
 			}
 		]
 	}

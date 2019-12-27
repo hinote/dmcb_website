@@ -11,8 +11,7 @@
 		{{#with first_slide}}
 			<section class="screen">
 				<div class="center_block">
-					<p class="huge">{{header}}</p>
-					<p>{{tagline}}</p>
+					<img src="/assets/img/dmcb.png" class="max-full">
 				</div>
 
 				<div class="bottom_block vertical_pulsate">
@@ -20,31 +19,18 @@
 				</div>
 			</section>
 		{{/with}}
-<!--
-		{{#each instruction_points}}
-			<section class="screen half color{{divisible @index 2 '1' '2'}}">
-				<div class="center_block">
-					<p class="huge">{{header}}</p>
-					<p>{{tagline}}</p>
-					<a target="_blank" class="button" href="{{link}}">Learn more</a>
+		
+		{{#with main_content}}
+			<section class="freeflow">
+				<div class="main-video">
+					<iframe width="560" height="315" src="{{video_link}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
-			</section>
-		{{/each}}
-
-		{{#with so_much_more_block}}
-			<section class="screen half color1">
-				<div class="center_block">
-					<p class="huge">{{header}}</p>
-					<p>{{tagline}}</p>
-					<ul>
-						{{#each list_of_topics}}
-							<li>{{tagline}} <a target="_blank" href="">Here</a></li>
-						{{/each}}
-					</ul>
-				</div>
+				{{#each about_us}}
+					<p class="about-us">{{paragraph}}</p>
+				{{/each}}
 			</section>
 		{{/with}}
--->
+		
 		{{>footer}}
 
 	</body>

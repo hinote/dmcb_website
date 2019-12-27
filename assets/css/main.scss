@@ -1,13 +1,15 @@
 @import 'variables/*';
 
 body {
-	background-color: $black;
-	color: $white;
-	font-family: 'Lato', sans-serif;
+	background-color: $white;
+	color: $black;
+	font-family: 'Helvetica', sans-serif;
 	font-weight: 200;
 	padding: 0;
 	margin: 0;
 }
+
+.max-full { max-width:100%; }
 
 .center_block {
 	text-align: center;
@@ -41,6 +43,10 @@ body {
 		background-color: $color2;
 	}
 }
+
+.main-video { margin:32px auto; text-align:center; }
+
+.about-us { width:800px; max-width:95%; margin:16px auto; }
 
 // animations
 .vertical_pulsate {
