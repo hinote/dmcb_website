@@ -1,2 +1,2 @@
 # DMCB Website
-Website for the Dead Music Capital Band
+website for the Dead Music Capital Band
