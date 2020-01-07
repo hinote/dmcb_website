@@ -1,5 +1,7 @@
-#dependencies
+/_src/*
+/assets/vendor
 /node_modules
-
-# build
-/_generated
+/assets/css/sprites
+**/_*
+enduro_secret.json
+/juicebox
