@@ -21,6 +21,10 @@ local_app.prototype.init = function (app) {
 	app.get('/hello', function (req, res) {
 		res.send('hello world')
 	})
+
+	app.get('/music', function (req, res) {
+		res.redirect('https://drive.google.com/drive/folders/0B1QptYff2GCWeWdDenFYYmRpQUU')
+	})
 }
 
 

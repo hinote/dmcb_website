@@ -6,7 +6,7 @@
 	"scripts": {
 		"start": "node_modules/.bin/enduro start"
 	},
-	"author": "author goes here",
+	"author": "John Hinote",
 	"license": "MIT",
 	"dependencies": {
 		"enduro": "*"
