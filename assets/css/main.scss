@@ -7,6 +7,10 @@ body {
 	font-weight: 200;
 	padding: 0;
 	margin: 0;
+
+	&.blackbg {
+		background-color: #000;
+	}
 }
 
 .max-full { max-width:100%; }
